@@ -2,7 +2,7 @@
 
 # What is devi?
 
-[Homepage](https://github.com/devi-run/devi-github-copilot-extension) | [Documents](./docs/content/en/_index.md) | [Get Started](#get-started) | [中文](README_cn.md)
+[Homepage](https://github.com/devi-run/devi-github-copilot-extension) | [Documents](./docs/content/en/_index.md) | [Get Started](#get-started) | [中文](README_zh.md)
 
 Devi is your AI agent building blocks. Building agentic workflow with generative AI is a new and innovative area, developers need to build many low level basic components before they can readlly focus on the actual valuable workflow. We want to simplify the complexity of this process by building a set of common AI agent components. 
 
