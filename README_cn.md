@@ -1,7 +1,7 @@
 <div align="center">
 
 # 什么是代维（devi）？
-[产品主页](https://github.com/devi-run/devi-github-copilot-extension) | [文档](https://github.com/devi-run/devi-github-copilot-extension) | [新手指南](#新手指南) | [English](README.md)
+[产品主页](https://github.com/devi-run/devi-github-copilot-extension) | [文档](./docs/content/zh/_index.md) | [新手指南](#新手指南) | [English](README.md)
 
 Devi 是 **AI 智能体（Agent） 基础组件库**。构建基于智能体的生成式AI应用需要开发者完成很多基础组件的搭建工作，我们希望通过构建一系列通用的  AI 智能体 组件来简化开发人员使用生成式AI的复杂度。
 
