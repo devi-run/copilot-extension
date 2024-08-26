@@ -35,6 +35,8 @@ Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通
 
     下载完成的模型文件会被保存在 `~/.devi` 目录下，后续再使用过程中或者升级插件时，不需要再次下载。
 
+    > 如果模型下载比较慢，也可以手工下载模型文件，下载地址：[Devi Embedding Model](https://aiseartifacts.blob.core.windows.net/artifacts/download/models/jinaai/jina_js.zip)，下载完成直接将 `jina_js.zip` 文件放入 `~/.devi` 目录下，重新启动VSCode即可。
+
 2. 通过编辑 `Settings. json` 文件来设置数据库连接。
 
     在菜单种点击 `文件` -> `首选项` -> `设置` 打开 `Settings. json` 文件。
