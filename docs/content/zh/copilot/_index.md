@@ -17,6 +17,8 @@ Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通
 
     下载地址：[Devi for GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=leansoftx.leansoftx-devi-copilot)
 
+> 安装完成后建议重新启动 Visual Studio Code 以确保插件正常加载。
+
 ## 初始化环境
 
 插件安装完毕后，需要完成以下两个简单的步骤才可以开始使用：
@@ -58,11 +60,8 @@ Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通
         },  
     ```
 
-    如果您输入的信息正确，Devi DB Agent 会自动连接您的数据库并启动向量索引操作，这个过程根据您本地计算机的性能和数据库的大小可能需要一段时间。
-
-    ![下编辑Settings.json](./images/devi_init_05.png)
-
-    如果您的数据库连接信息有误，Devi DB Agent 会提示您输入正确的数据库连接信息。
+   输入完成，保存即可。
+    
 
 ## 数据库智能问答
 
@@ -76,7 +75,13 @@ Devi DB Agent 可以为您提供数据库智能问答的能力，用户可以在
 
 ![输入问题](./images/devi_qa_02.png)
 
-> 如果是第一次使用，GitHub Copilot会询问您是否允许自定义Agent使用 Copilot 服务，请点击 `允许`，此时 Devi DB Agent 会自动连接您的数据库并启动向量索引操作。
+如果是第一次使用，GitHub Copilot会询问您是否允许自定义Agent使用 Copilot 服务，请点击 `允许`，此时 Devi DB Agent 会自动连接您的数据库并启动向量索引操作。
+
+![第一次授权](./images/copilot_warnning.png)
+
+如果前面正确配置了数据库连接信息，Devi DB Agent 会自动连接您的数据库并启动向量索引操作，这个过程根据您本地计算机的性能和数据库的大小可能需要一段时间。如果您的数据库连接信息有误，Devi DB Agent 会提示您输入正确的数据库连接信息。
+
+![下编辑Settings.json](./images/devi_init_05.png)
 
 Devi DB Agent 会为您提供问题的答案：
 
