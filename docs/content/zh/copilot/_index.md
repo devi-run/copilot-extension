@@ -52,7 +52,7 @@ Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通
             "database": "test_db",
             "host": "localhost",
             "port": 3306,
-            "user": "root
+            "user": "root",
             "password": "your password",
             "type": "mysql"
         },  
