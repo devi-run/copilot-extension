@@ -4,6 +4,19 @@
 
 代维DB智能体（devi DB agent）是我们首批发布的智能体组件，可以为开发者提供智能数据库问答和 Text2SQL 的自然语言数据库查询能力。
 
+## 安装插件
+
+Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通过以下步骤安装插件：
+
+1. 打开 Visual Studio Code，点击左侧的 `扩展` 图标, 在搜索框中输入 `Devi`，找到 `Devi for GitHub Copilot` 插件并点击 `安装` 安装插件。
+
+    ![Install](./images/devi_install_01.png)
+
+
+2. 或者您也可以通过 Visual Studio Marketplace 下载插件安装包并手工安装
+
+    下载地址：[Devi for GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=leansoftx.leansoftx-devi-copilot)
+
 ## 初始化环境
 
 插件安装完毕后，需要完成以下两个简单的步骤才可以开始使用：
