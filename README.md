@@ -2,7 +2,7 @@
 
 # What is devi?
 
-[Homepage](https://github.com/devi-run/devi-github-copilot-extension) | [Documents](./docs/content/en/_index.md) | [Get Started](#get-started) | [中文](README_zh.md)
+[Homepage](https://github.com/devi-run/devi-github-copilot-extension) | [Documents](./docs/content/en/_index.md) | [Get Started](./docs/content/en/copilot/_index.md) | [中文](README_zh.md)
 
 Devi is your AI agent building blocks. Building agentic workflow with generative AI is a new and innovative area, developers need to build many low level basic components before they can readlly focus on the actual valuable workflow. We want to simplify the complexity of this process by building a set of common AI agent components. 
 
@@ -13,6 +13,8 @@ Devi is your AI agent building blocks. Building agentic workflow with generative
 # Devi for GitHub Copilot 
 **Devi for GitHub Copilot** is a series of AI agents built on the GitHub Copilot ecosystem. Devi provides the atomic capabilities of these agents and developers can interact with devi through GitHub Copilot Chat as your common AI tool.
 The **Devi DB Agent** is our first agent component to be released, providing developers with intelligent database Q&A and natural language database query capabilities (Text2SQL). 
+
+> Note：As this is a GitHub Copilot extension, you need to have GitHub Copilot installed in your Visual Studio Code to use this extension. Devi itself is a free extension, but you need to pay for the GitHub Copilot subscription.
 
 <video 
     src="https://aiseartifacts.blob.core.windows.net/devi/videos/devi-demo-en.mp4" 
