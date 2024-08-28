@@ -16,6 +16,8 @@ Devi 是 **AI 智能体（Agent） 基础组件库**。构建基于智能体的�
 
 > 注意：由于这是一个GitHub Copilot扩展，您需要在Visual Studio Code中安装GitHub Copilot才能使用此扩展。Devi本身是一个免费扩展，但您需要为GitHub Copilot订阅付费。
 
+演示视频 - B站：[代维(devi)数据库智能体 - GitHub Copilot扩展， 数据库智能问答，文本生成SQL脚本，一键生成数据库文档](https://www.bilibili.com/video/BV1XmsLepEdR/)
+
 # 特性列表
 
 开发者在GitHub Copilot Chat中使用 `@devi` 调用 代维DB智能体实现如下能力：

@@ -16,11 +16,7 @@ The **Devi DB Agent** is our first agent component to be released, providing dev
 
 > Note：As this is a GitHub Copilot extension, you need to have GitHub Copilot installed in your Visual Studio Code to use this extension. Devi itself is a free extension, but you need to pay for the GitHub Copilot subscription.
 
-<video 
-    src="https://aiseartifacts.blob.core.windows.net/devi/videos/devi-demo-en.mp4" 
-    style="width: 100%; height: auto; max-width:100%"
-    controls>
-</video>
+Demo Video: [Devi for GitHub Copilot](https://aiseartifacts.blob.core.windows.net/devi/videos/devi-demo-en.mp4)
 
 # Features
 Developers can use `@devi` to invoke these capabilities in GitHub Copilot, including:

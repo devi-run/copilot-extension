@@ -4,6 +4,8 @@
 
 代维DB智能体（devi DB agent）是我们首批发布的智能体组件，可以为开发者提供智能数据库问答和 Text2SQL 的自然语言数据库查询能力。
 
+演示视频 - B站：[代维(devi)数据库智能体 - GitHub Copilot扩展， 数据库智能问答，文本生成SQL脚本，一键生成数据库文档](https://www.bilibili.com/video/BV1XmsLepEdR/)
+
 ## 安装插件
 
 Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通过以下步骤安装插件：
