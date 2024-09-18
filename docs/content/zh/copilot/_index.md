@@ -39,33 +39,11 @@ Devi for GitHub Copilot 插件是一个 Visual Studio Code 插件，您可以通
 
     > 如果模型下载比较慢，也可以手工下载模型文件，下载地址：[Devi Embedding Model](https://smartidedl.blob.core.chinacloudapi.cn/devi/model/jina_js.zip)，下载完成直接将 `jina_js.zip` 文件放入 `~/.devi` 目录下，重新启动VSCode即可。
 
-2. 通过编辑 `Settings. json` 文件来设置数据库连接。
+2. 点击左侧工具栏上的 `devi` 图标，在 `DEVI: MYSQL配置` 中输入您的数据库连接信息，然后点击 `保存` 按钮。
 
-    在菜单种点击 `文件` -> `首选项` -> `设置` 打开 `Settings. json` 文件。
+    ![数据库连接信息](./images/devi_init_mysql.png)
 
-    ![开启设置](./images/devi_init_03.png)
-
-    在设置页面中输入 `devi` 搜索关键字，并点击 `Edit in settings.json`。
-
-    ![下编辑Settings.json](./images/devi_init_04.png)
-
-    在 `Settings. json` 文件中添加 `devi.databaseSetting` 配置项，配置项的内容包括数据库的连接信息，
-
-    以下是 `Setings. json` 文件的示例：
-
-    ```json
-        "devi.databaseSetting": {    
-            "database": "test_db",
-            "host": "localhost",
-            "port": 3306,
-            "user": "root",
-            "password": "your password",
-            "type": "mysql"
-        },  
-    ```
-
-   输入完成，保存即可。
-    
+    也可以点击 `刷新` 按钮，强制刷新数据库结构定义的向量索引。
 
 ## 数据库智能问答
 
