@@ -46,25 +46,22 @@ Generate standard database documents via built-in `@devi /docs <table_name>` sho
 # Get Started
 
 Once you have installed the **Devi for GitHub Copilot**, there are 2 simple steps to get started:
+Once you have installed the **Devi for GitHub Copilot**, there are 2 simple steps to get started:
 
-1. Download the **embedding model** by tirggering the `Download Model` task.
+1. Click on the `devi` icon on the toolbar to configure your MySQL database connection.
 
-    You can open the command palette by pressing `Ctrl+Shift+P` and type `Download Model` to download the embedding model. It will take a while to download the model and it will be saved to the `~/.devi` folder.
+    ![](https://aiseartifacts.blob.core.windows.net/devi/images/devi_config.png)
 
-2. Setup your database connection by editing the `Settings.json` file.
+    After configuration is completed, click `Save`. You can also click the `Refresh` button to refresh the vector index of the database.
+    
+    If it is the first time to use the devi plugin, the `Download Model` task will be automatically started at this time. After the model is downloaded, the vector indexing process for the database structure will be automatically started. If you see the following information, it means that the configuration is completed and you can start a conversation.
 
-    here is an example of the `Settings.json` file:
+    ![](https://aiseartifacts.blob.core.windows.net/devi/images/devi_config_done.png)
 
-    ```json
-        "devi.databaseSetting": {    
-            "database": "test_db",
-            "host": "127.0.0.1",
-            "port": 3306,
-            "user": "root",
-            "password": "your password",
-            "type": "mysql"
-        },
-    ```
+
+2. You can also manually start the `Download Model` task to complete the download action of the embedded model.
+
+    You can open the command palette by pressing `Ctrl+Shift+P` and typing `Download Model` to download the embedding model. Downloading the model takes some time and it will be saved to the `~/.devi` folder.
 
 Once you have completed the above steps, you can start using the Devi DB Agent in GitHub Copilot Chat by typing `@devi` and your query.
 

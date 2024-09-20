@@ -45,6 +45,25 @@ Devi 是 **AI 智能体（Agent） 基础组件库**。构建基于智能体的�
 
 ![@devi /docs <table_name>](https://aiseartifacts.blob.core.windows.net/devi/images/devi-zh-cn05.png)
 
+# 新手指南
+
+安装 **Devi for GitHub Copilot** 后，需要完成两个简单的步骤才可以开始使用：
+
+1. 点击左侧工具栏上的 `devi` 图表配置你的 MySQL 数据库连接
+
+    ![](https://aiseartifacts.blob.core.windows.net/devi/images/devi_config_cn.png)
+
+    配置完成后点击 `保存`。您也可以点击 `刷新` 按钮强制刷新数据库的向量索引。
+    
+    如果是第一次使用 devi 插件，这时会自动启动 `下载模型` 任务；模型下载完成后会自动启动对数据库结构的向量索引过程。如果您看到以下信息，则表示配置已经完成，可以开始对话了。
+
+    ![](https://aiseartifacts.blob.core.windows.net/devi/images/devi_config_cn_done.png)
+
+
+2. 您也可以手工启动 `下载模型` 任务，完成 **嵌入模型** 的下载动作。
+
+    您可以通过按 `Ctrl+Shift+P` 打开命令面板并键入 `Download Model`来下载嵌入模型。下载模型需要一段时间，它将被保存到 `~/. devi` 文件夹。
+
 完成上述步骤后，您可以通过键入 `@devi` 和您的查询开始在GitHub Copilot Chat中使用Devi DB智能体。
 
 # 版权信息
